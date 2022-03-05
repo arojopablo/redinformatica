@@ -1,38 +1,222 @@
-.App {
+/* Inicio home */
+.bg-gris {
+  background-color: #F5F5F5;
+} 
+
+.menu ul {
+  list-style-type: none;    
+}
+
+.menu ul li {
+  display: inline;
+  padding-left: 2.5rem;
+}
+
+.derecha {    
+  float:right;
+}
+.derecha li {
+  list-style-type: none;
+}
+
+.izquierda {
+  float:left;
+}
+.logo {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Dancing Script', cursive;   
+  color: #00862D;
+  font-size: 28px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color:#3E3E3E;
+}
+.menu ul li a:hover {
+  color:#3A8337;
+}
+
+h1 {
+  color: #3A8337;
+  font-weight: bold;
+}
+
+h2 {
+  color: #3A8337;
+  font-weight: bold;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  color: #A5A5A5;
+} 
+
+hr {
+  margin-top: -10px;
+  width: 90%;    
+  border: solid 1px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.card {
+  cursor: pointer;    
+}
+  .card:hover {
+      -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
   }
+
+.observacion {
+  font-weight: 450;
+  font-size: 18px;
+  color: #3A8337;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.beneficios ul li {
+  font-size: 24px;
+  line-height: 3rem;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .beneficios ul li i {
+      font-size: 1.5rem;
+      margin: 1rem;
+      color: #3A8337;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.promo {
+  border: solid 1px;
+  margin:4rem;   
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
 }
+
+.promo-img {
+  
+  margin:4rem;   
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+/* fin home */
+
+/* Inicio Footer  */
+
+footer {
+ background-color:  #dfdede;
+ margin-top: 2rem;
+}
+
+ul {
+  line-height: 2rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color:#3E3E3E;
+}
+
+.iconoRedes {
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.iconoRedes:hover {
+  background-color:  #A5A5A5;
+  cursor: pointer;
+ 
+}
+/* Fin Footer */
+
+/* Inicio Servicios */
+
+.servicio {
+  font-size: 24px;
+  color: #3A8337;
+  text-align: center;
+  
+}
+
+.bg-gris2 {
+background-color:#dfdede;
+}
+
+.serviciosAdicionales {
+border-radius:5px;
+padding: 1rem;
+-webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+}
+
+/* Fin Servicios */
+
+/* impresiones */
+.menuPrint {
+ cursor: pointer;   
+}
+
+.menuPrint p {
+  font-size: 18px;
+  font-weight:500; 
+
+}
+  .menuPrint:hover {
+      opacity: 0.6;                
+      color:#00862D;                
+  }
+ 
+
+/* fin impresiones */
+
+/* inicio nosotros  */
+
+.bg-gris3 {
+  background-color: #F5F6FA;
+}
+
+.nosotrosTexto {
+  font-style: italic;
+
+}
+
+.bg-verde {
+  background-color: #3A8337;
+}
+
+.tituloNosotros {
+  font-size: 24px;
+  color:white;
+  font-weight: 500;
+}
+/* fin nosotros */
+
+
+/* 
+@media (min-width: 768px) {
+  nav {max-width: 100%;}
+ }
+ */
+
+ nav ul li a.activo {
+  color:#3A8337;
+  font-weight: bold;
+    }
+
+/* Inicio Producto */
+
+.iconoProducto {
+  color:rgb(179, 179, 110);
+  font-size: 1.3rem;
+}
+
+/* Fin producto */ 
