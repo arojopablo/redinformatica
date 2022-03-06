@@ -1,7 +1,7 @@
 .bg-gris {
   background-color: #F5F5F5;
 } 
-
+/* 
 .menu ul {
   list-style-type: none;    
 }
@@ -22,7 +22,7 @@
   float:left;
 }
 .logo {
-  /* font-family: 'Open Sans', sans-serif; */
+ 
   font-family: 'Dancing Script', cursive;   
   color: #00862D;
   font-size: 28px;
@@ -34,7 +34,7 @@
 }
 .menu ul li a:hover {
   color:#3A8337;
-}
+} */
 
 h1 {
   color: #3A8337;
@@ -99,33 +99,3 @@ hr {
   cursor: pointer;
 }
 
-
-/* impresiones */
-/* .menuPrint {
- cursor: pointer;   
-}
-
-.menuPrint p {
-  font-size: 18px;
-  font-weight:500; 
-
-}
-  .menuPrint:hover {
-      opacity: 0.6;                
-      color:#00862D;                
-  }
- 
-
- nav ul li a.activo {
-  color:#3A8337;
-  font-weight: bold;
-    } */
-
-/* Inicio Producto */
-
-/* .iconoProducto {
-  color:rgb(179, 179, 110);
-  font-size: 1.3rem;
-} */
-
-/* Fin producto */ 

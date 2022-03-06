@@ -20,7 +20,8 @@ const Header = (props) => {
                         <li><NavLink activeClassName='activo' exact to="/impresiones">Impresiones</NavLink></li>
                         <li><NavLink activeClassName='activo' exact to="/nosotros">Nosotros</NavLink></li>
                         <li><NavLink activeClassName='activo' exact to="/contacto">Contacto</NavLink></li>
-                        <li class="derecha"><a href="#"><i class="fa fa-fw fa-user fa-lg"></i>Iniciar Sesion</a></li>
+                        <li className = "derecha"><NavLink activeClassName='activo ' exact to="/admin"><i class="fa fa-fw fa-user fa-lg"></i> Iniciar Sesion</NavLink></li>
+                        {/* <li class="derecha"><a href="#"><i class="fa fa-fw fa-user fa-lg"></i>Iniciar Sesion</a></li> */}
                         <li class="derecha"><i class="fa fa-fw fa-cart-plus fa-lg" ></i></li>
                     </ul>
                 </nav>

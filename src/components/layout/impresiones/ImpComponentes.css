@@ -20,8 +20,17 @@
     font-size: 3rem;    
 }
     .centrado p {
-        /* color: #3A8337;*/
         color: #3E3E3E;
         font-family: 'Dancing Script', cursive;   
         font-weight: 500;
     }
+
+
+ @media (max-width: 720px) {
+
+.centrado {
+font-size: 1rem;
+
+} 
+       
+}
