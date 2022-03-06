@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/components/Pages/NosotrosPage.css';
 import Beneficios from "../components/Beneficios";
 import OfertasFecha from "../components/OfertasFecha";
 import Linea from "../components/Linea";
@@ -114,6 +115,7 @@ const Nosotros = (props) => {
                     </div>
                 </div>
             </div>
+            <Linea/>
             <Beneficios />
         </div>)
 }

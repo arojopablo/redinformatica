@@ -1,6 +1,6 @@
 import React from "react";
+import '../../styles/components/Layout/Footer.css';
 
-{/* <i className="fa fa-fw fa-user text-white fa-lg"></i> */}
 
 const Footer = (props) => {
     return ( <div>

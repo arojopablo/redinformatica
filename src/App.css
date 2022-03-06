@@ -1,4 +1,3 @@
-/* Inicio home */
 .bg-gris {
   background-color: #F5F5F5;
 } 
@@ -101,67 +100,8 @@ hr {
 }
 
 
-/* fin home */
-
-/* Inicio Footer  */
-
-footer {
- background-color:  #dfdede;
- margin-top: 2rem;
-}
-
-ul {
-  line-height: 2rem;
-}
-
-ul li {
-  list-style-type: none;
-}
-
-ul li a {
-  text-decoration: none;
-  font-size: 1.1rem;
-  color:#3E3E3E;
-}
-
-.iconoRedes {
-  font-size: 2rem;
-  padding: 0.5rem;
-  border-radius: 10px;
-}
-
-.iconoRedes:hover {
-  background-color:  #A5A5A5;
-  cursor: pointer;
- 
-}
-/* Fin Footer */
-
-/* Inicio Servicios */
-
-.servicio {
-  font-size: 24px;
-  color: #3A8337;
-  text-align: center;
-  
-}
-
-.bg-gris2 {
-background-color:#dfdede;
-}
-
-.serviciosAdicionales {
-border-radius:5px;
-padding: 1rem;
--webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
-}
-
-/* Fin Servicios */
-
 /* impresiones */
-.menuPrint {
+/* .menuPrint {
  cursor: pointer;   
 }
 
@@ -176,47 +116,16 @@ box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
   }
  
 
-/* fin impresiones */
-
-/* inicio nosotros  */
-
-.bg-gris3 {
-  background-color: #F5F6FA;
-}
-
-.nosotrosTexto {
-  font-style: italic;
-
-}
-
-.bg-verde {
-  background-color: #3A8337;
-}
-
-.tituloNosotros {
-  font-size: 24px;
-  color:white;
-  font-weight: 500;
-}
-/* fin nosotros */
-
-
-/* 
-@media (min-width: 768px) {
-  nav {max-width: 100%;}
- }
- */
-
  nav ul li a.activo {
   color:#3A8337;
   font-weight: bold;
-    }
+    } */
 
 /* Inicio Producto */
 
-.iconoProducto {
+/* .iconoProducto {
   color:rgb(179, 179, 110);
   font-size: 1.3rem;
-}
+} */
 
 /* Fin producto */ 

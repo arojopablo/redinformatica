@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/components/Pages/servicios.css';
 import OfertasFecha from "../components/OfertasFecha";
 import Linea from "../components/Linea";
 import BeneficiosPromo from "../components/Beneficios";

@@ -1,4 +1,7 @@
 
+// Este archivo simula datos como si fueran de una base de datos, para luego mostrar los productos en pantalla
+// simulando una "consulta" en una tabla de base de datos.
+
 const productos=[{
 	"id":1,
 	"calificacion":5,

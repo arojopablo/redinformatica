@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/components/Layout/Header.css';
 import {NavLink} from "react-router-dom";
 
 {/* <i className="fa fa-fw fa-user text-white fa-lg"></i> */}

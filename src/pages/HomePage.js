@@ -6,7 +6,7 @@ import Producto from "../components/layout/Producto";
 import OfertasFechaSmall from "../components/OfertasFechaSmall";
 import productos from "../productos";
 
-
+// importo el arvhivo "productos.js" para simular una consulta que carga los productos.
 // un sub array de productos simulando que es una seleccion de productos destacados       
 const filtered = productos.filter(function(element){
  return element.id <= 3;
